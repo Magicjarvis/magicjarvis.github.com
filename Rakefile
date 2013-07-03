@@ -170,6 +170,7 @@ namespace :theme do
       name = manifest["name"]
     else
       name = ENV["name"].to_s.downcase
+      force = ENV["force"]
     end
 
     packaged_theme_path = JB::Path.build(:theme_packages, :node => name)
@@ -198,7 +199,7 @@ namespace :theme do
     # Mirror each file into the framework making sure to prompt if already exists.
     packaged_theme_files.each do |filename|
       file_install_path = File.join(JB::Path.base, filename)
-      if File.exist? file_install_path and ask("#{file_install_path} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+      if File.exist? file_install_path and not force and ask("#{file_install_path} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
         next
       else
         mkdir_p File.dirname(file_install_path)

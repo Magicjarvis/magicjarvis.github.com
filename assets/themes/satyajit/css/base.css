@@ -1,6 +1,6 @@
 body{ 
-    color: #444;
-    background: #e2e5ed; 
+    color: #4b535e;
+    background: #e6e7e9; 
     font-size: 100%; 
     font-family: Lustria, Palatino, Georgia,'Times New Roman',serif; 
     line-height: 2;
@@ -14,7 +14,7 @@ ul, ol{
 h1, h2, h3, h4, h5, h6 { 
     /*font-family: 'Fredericka the Great', cursive; */
     font-family: 'Ubuntu Condensed', sans-serif;
-    color: #4b535e;
+    color: #363c44;
     line-height: 1;
     margin:0;
     padding:0;
@@ -35,20 +35,19 @@ h1 {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .9);
 }
 h1 a{
-    color: #4b535e;
+    color: #363c44;
 }
 code, pre {
     padding: 0 3px 2px;
     font-family: Monaco, Andale Mono, Courier New, monospace;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     font-size: 90%;
     line-height: 1.5;
 }
 code {
     background-color: #fdfdfd;
-    color: rgba(0, 0, 0, 0.75);
     padding: 1px 3px;
 }
 pre {
@@ -57,16 +56,15 @@ pre {
     padding: 14px;
     margin: 0 0 18px;
     border: 1px solid #eee;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     white-space: pre;
     white-space: pre-wrap;
     word-wrap: break-word;
 }
 pre code {
-    background-color: #fdfdfd;
-    color:#737373;
+    color: #4b535e;
 }
 #menu{
     height: 100%;
@@ -83,13 +81,14 @@ pre code {
     margin: 0;
     padding: 8px 26px;
 }
-#menu img{
-    width: 48px;
+#menu li a {
+    color: #e6e7e9;
+    font-size: 44px;
     border-radius: 7px;
 }
-#menu li{
+#menu li {
     list-style: none;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 #menu .me{
     box-shadow: 1px 1px 3px 0px #000000;
