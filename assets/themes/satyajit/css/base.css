@@ -105,8 +105,12 @@ pre code {
     text-align: center;
 }
 #footer{
-    font-size: .7em;
+    font-size: .4em;
     text-align: center;
+}
+
+#footer img{
+  max-width: 36px;
 }
 
 .post img, #post img {
