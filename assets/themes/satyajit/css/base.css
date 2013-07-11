@@ -37,6 +37,7 @@ h1 {
 h1 a{
     color: #363c44;
 }
+
 code, pre {
     padding: 0 3px 2px;
     font-family: Monaco, Andale Mono, Courier New, monospace;
@@ -46,6 +47,7 @@ code, pre {
     font-size: 90%;
     line-height: 1.5;
 }
+
 code {
     background-color: #fdfdfd;
     padding: 1px 3px;
@@ -97,16 +99,28 @@ pre code {
     margin-left: 100px;
     padding: 1em;
 }
-#main .content{
+
+#main {
     margin: 0 auto;
     max-width: 900px;
 }
-#main h1{
-    text-align: center;
+
+#main .content{
+    float:left;
+    max-width: 630px;
 }
+
+#main .textwidget{
+    padding-top: 10px;
+    max-width: 200px;
+    float:right;
+    font-size: 0.8em;
+}
+
 #footer{
     font-size: .4em;
     text-align: center;
+    clear:both;
 }
 
 #footer img{

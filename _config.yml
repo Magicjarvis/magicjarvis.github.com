@@ -9,8 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : This is a thing
-tagline: My name is not Travis
+title : Jarvis Johnson
+tagline: I''m Jarvis
 author :
   name : Jarvis Johnson
   email : Magicjarvis@gmail.com
